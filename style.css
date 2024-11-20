@@ -1,0 +1,21 @@
+table.tbl1{
+    border: red, 1px, solid;
+}
+
+td#td1{
+    border: blue 2px solid;
+}
+
+table.tbl2{
+    border: green, 1px solid; width: 500px;
+}
+
+td.gr{
+    border: green, 1px solid;
+    text-align: center;
+}
+
+td#gr1{
+    border: green, 1px solid;
+    text-align: center;
+}

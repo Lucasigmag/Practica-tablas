@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Luca Signoli Maggiotto">
+    <meta name="description" content="Web tablas">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tablas</h1>
+    <br>
+    <h3>tabla 1</h3>
+    <table class="tbl1">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+    </table>
+
+    <h3>tabla 2</h3>
+    <table class="tbl1">
+        <tr>
+            <td id="td1">A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+    </table>
+
+    <h3>tabla 3</h3>
+    <table class="tbl2">
+        <tr>
+            <td class="gr">A</td>
+            <td class="gr">B</td>
+            <td class="gr">C</td>
+        </tr>
+        <tr>
+            <td class="gr">D</td>
+            <td id="gr1" colspan="2">E,F</td>
+        </tr>
+        <tr>
+            <td class="gr">G</td>
+            <td class="gr">H</td>
+            <td class="gr" colspan="2" rowspan="2">I,J</td>
+        </tr>
+        <tr>
+            <td class="gr">K</td>
+            <td class="gr">L</td>
+        </tr>
+    </table>
+</body>
+</html>
