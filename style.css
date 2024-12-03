@@ -1,21 +1,17 @@
-table.tbl1{
-    border: red, 1px, solid;
+table.tbl1 {
+    border: 1px solid red;
 }
 
-td#td1{
-    border: blue 2px solid;
+td#td1 {
+    border: 2px solid blue;
 }
 
-table.tbl2{
-    border: green, 1px solid; width: 500px;
+table.tbl2 {
+    border: 1px solid green;
+    width: 500px;
 }
 
-td.gr{
-    border: green, 1px solid;
-    text-align: center;
-}
-
-td#gr1{
-    border: green, 1px solid;
+td.gr, td#gr1 {
+    border: 1px solid green;
     text-align: center;
 }
